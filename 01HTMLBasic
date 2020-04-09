@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+< ! D O C T Y P E  h t m l >
+
+< h t m l >
+
+
+<head>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<hr>
+<p><strong>----Heading h1 through h6 determine size----</strong></p>
+<h1> < h 1 > This is heading 1 with < / h 1 ></h1>
+<h2> < h 2 > This is heading 2 with < / h 2 ></h2>
+<h3> < h 3 > This is heading 3 with < / h 3 ></h3>
+<h4> < h 4 > This is heading 4 with < / h 4 ></h4>
+<h5> < h 5 > This is heading 5 with < / h 5 ></h5>
+<h6> < h 6 > This is heading 6 with < / h 6 ></h6>
+<hr>
+<p><strong>----HTML Paragraphs----</strong></p>
+<p>HTML paragraphs are defined with the < p > tag:</p>
+<p>EXAMPLE: < p >This is a paragraph.< / p ></p>
+<hr>
+<p><strong>----HTML Links----</strong></p>
+
+HTML links are defined with the < a tag and href="This is
+where the web site goes in quotes" >Type here
+to make the link underlined in blue < / a >
+
+<p>
+Example
+</p>
+<a href="https://www.catholictimelinebanner.com">This is a link</a>
+<p>Here is what is really says though</p>
+< a href = "https://www.catholictimelinebanner.com" >This is a link < / a >
+
+<hr>
+<p><strong>----HTML Images----</strong></p>
+<p>HTML images are defined with the < img > tag.</p>
+<p><u>These have Five (5) parts or attributes:</u></p>
+<p>img (this introduces an image file)</p>
+<p>src="" (this is the surce of the file) after this</p>
+<p>alt="" (this is what is read [by screen readers] if the file can't be displayed)</p>
+<p>width="" (this tells how wide the image is)</p>
+<p>height="" (this tells how heigh the image is)</p>
+<p>< img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"></p>
+<hr>
+<p><strong>----HTML Buttons----</strong></p>
+<p>HTML buttons are defined with the button tag:</p>
+
+<button>Click me</button>
+<p>Here is what is really says though</p>
+< button>Click me < / button >
+
+<hr>
+<hr>
+<p><strong>----HTML Lists----</strong></p>
+<p>HTML lists are defined with the < ul > (unordered/bullet list) </p>
+<p>or the < ol > (ordered/numbered list) tag, </p>
+<p>followed by < li > tags (list items):</p>
+
+<h2>An Unordered HTML List</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h2>An Ordered HTML List</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<p>Here is what is really says though. NOTE: It is ugly and bth lists naturally order themselves so I am adding paragraph marks < p > < / p > to similate what it really looks like.
+
+<p>< h 2 > An Unordered HTML List < / h 2 ></p>
+
+<p>< u l ></p>
+  <p>< l i >Coffee < / l i ></p>
+  <p>< l i >Tea < / l i ></p>
+  <p>< l i >Milk < / l i ></p>
+<p>< / u l></p>
+<p></p>
+<p>< h 2 > An Ordered HTML List < / h 2 ></p>
+<p></p>
+ <p>< o l ></p>
+  <p>< l i > Coffee < / l i ></p>
+  <p>< l i > Tea < / l i ></p>
+  <p>< l i > Milk < / l i ></p>
+<p>< / o l ></p>
+
+<hr>
+<hr>
+<hr>
+<hr>
+
+</body>
+</html>

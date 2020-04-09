@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<heading>
+  <h1>HTML ATTRIBUTES</h1>
+</heading>
+
+<body>
+  <ul>HTML Attributes
+    <li>All HTML elements can have attributes
+    <li>Attributes provide additional information about an element
+    <li>Attributes are always specified in the start tag
+    <li>Attributes usually come in name/value pairs like: name="value"
+  </ul>
+  <hr>
+  <ul><strong>----HTML Attributes and Examples----</strong>
+
+    <li>title="" attribute provides additional "tool-tip" information
+    <li>src="" (this is the source of the file) after this
+    <li>alt="" (this is what is read [by screen readers] if the file can't be displayed)
+    <li>width="" (this tells how wide the image is)
+    <li>height="" (this tells the height the image is)
+    <li>disabled="" Specifies that an input element should be disabled
+    <li>id="" Specifies a unique id for an element
+    <li>style="" Specifies an inline CSS style for an element
+    <li>
+      < p r e> means a preformatted text. < / pre>
+    <li>
+      < b r> puts in a physical line break that is visible
+  </ul>
+  <hr>
+  <heading>
+    <h1>HTML STYLES</h1>
+  </heading>
+  <ul>Examples</ul>
+  <li>Background Color
+  <li style="background-color:lightblue;">
+    <p>
+      < li style="background-color:lightblue;">
+    </p>
+
+  <li>Text Color
+  <li style="color:red;">This looks like this. < li style="color:red;">
+      </p>
+
+  <li>Fonts
+  <li style="font-family:courier;">This looks like this. < li style="font-family:courier;">
+      </p>
+
+  <li>Text Size
+  <li style="font-size:160%;">This looks like this.< li style="font-size:160%;">
+      </p>
+  <li>Text Alignment
+  <li style="text-align:center;">This looks like this.< li style="text-align:center;">
+      </p>
+
+
+
+</body>
+
+</html>

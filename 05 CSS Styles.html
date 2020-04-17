@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+  <title>
+    CSS Styles
+
+  </title>
+</header>
+
+<body>
+  <h1>Introduction</h1>
+  <p>
+    CSS can be added to HTML elements in 3 ways:
+    <pre>
+Inline - by using the style attribute in HTML elements
+Internal - by using a < style> element in the < head> section
+External - by using an external CSS file
+  </pre>
+  </p>
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h2>Inline CSS</h2>
+  <p>
+    <h1 style="color:blue;">This is a Blue Heading</h1>
+
+  </p>
+
+  <p><mark>
+      This is what it really says:
+    </mark></p>
+    <p>
+      < h1 style="color:blue;">This is a Blue Heading</h1>
+
+    </p>
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <div>
+  <h2>Internal CSS
+  </h2>
+  <p>
+    <style>
+    div {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}
+    </style>
+  </p>
+
+  <p><mark>
+      This is what it really says:
+    </mark></p>
+    <p>
+      < style><pre>
+      div {background-color: powderblue;}
+      h1   {color: blue;}
+      p    {color: red;}
+      < /style>  </pre>
+    </p>
+  </div>
+
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h2>External CSS
+  </h2>
+  <p><pre>
+        An external style sheet is used to define the style for many HTML pages.
+    With an external style sheet, you can change the look of an entire web site, by changing one file!
+    To use an external style sheet, add a link to it in the <head> section of the HTML page:
+    </pre>
+</p>
+<p>< head>< link rel="stylesheet" href="styles.css">< /head> </p>
+<p>
+  An external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension.
+
+Here is how the "styles.css" looks:
+</p><pre>
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+</pre>
+
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h2>CSS Fonts
+  </h2>
+  <p><pre>
+    The CSS color property defines the text color to be used.
+
+The CSS font-family property defines the font to be used.
+
+The CSS font-size property defines the text size to be used.
+  </pre>
+  </p>
+<p><pre>
+  < styles>
+  h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</pre>
+
+< /style>
+</p>
+
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h3>CSS Border
+  </h2>
+
+    <style>
+h3 {
+border: 4px solid powderblue;
+}
+</style>
+
+
+  <p><mark>
+      This is what it really says:
+    </mark></p>
+    <p><pre>
+            < style>
+      h3 {
+        border: 1px solid powderblue;
+      }
+      < /style>    </pre>
+
+    </p>
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h4>CSS Padding</h4>
+  <p>
+    The CSS padding property defines a padding (space) between the text and the border:
+<style>
+    h4 {
+      border: 4px solid powderblue;
+      padding: 15px;
+    }
+    </style>
+  </p>
+
+  <p><mark>
+      This is what it really says:
+    </mark></p>
+    <p><pre>
+      < style>
+          h4 {
+            border: 4px solid powderblue;
+            padding: 15px;
+          }
+          < /style>
+    </pre>
+
+    </p>
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h5>CSS Margin
+
+  </h5>
+  <p>
+    The CSS margin property defines a margin (space) outside the border:  </p>
+<style>
+    h5 {
+  border: 1px powderblue;
+  margin: 50px;
+}
+</style>
+  <p><mark>
+      This is what it really says:
+    </mark></p>
+
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h2>The id Attribute
+    <p>
+
+    To define a specific style for one special element, add an id attribute to the element:
+    </p>
+
+  </h2>
+  <p><style>
+#p01 {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p id="p01">I am different.</p>
+
+  </p>
+
+  <p><mark>
+      This is what it really says:
+    </mark></p><pre>
+
+    < p> < style>
+#p01 {
+  color: blue;
+}
+</ style>
+</ head>
+< body>
+< p>This is a paragraph.< /p>
+< p>This is a paragraph.< /p>
+< p id="p01">I am different.< /p>
+</pre>
+
+    </p>
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h2>The Class Attribute
+
+  </h2>
+  <p>p.error {
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different too.</p>
+
+  </p>
+
+  <p><mark>
+      This is what it really says:
+    </mark></p>
+    <p>
+
+    <pre>
+
+      p.error {
+        color: red;
+      }
+      < /style>
+
+      < p>This is a paragraph.< /p>
+      < p>This is a paragraph.< /p>
+      < p class="error">I am different.< /p>
+      < p>This is a paragraph.< /p>
+      < p class="error">I am different too.< /p></pre>
+    </p>
+  <!---This is a visual space so that you the coder can seewhere the division is-->
+  <hr>
+  <h2>External References
+
+  </h2>
+  <p><pre>
+
+    This example uses a full URL to link to a style sheet:
+
+< link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+This example links to a style sheet located in the html folder on the current web site:
+
+< link rel="stylesheet" href="/html/styles.css">
+This example links to a style sheet located in the same folder as the current page:
+
+< link rel="stylesheet" href="styles.css">
+
+</pre>
+
+  </p>
+
+  <p><mark>
+      This is what it really says:
+    </mark></p>
+    <p>
+
+    </p>
+
+
+
+</body>
+
+</html>

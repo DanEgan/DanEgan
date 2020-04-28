@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+  <table style="width:100%">
+    <ul>
+      <li class="grow"><a href="index.html">Home</a></li>
+      <li class="grow"><a href="Basic.html">Basic HTML</a></li>
+      <li class="grow"><a href="elements.html">HTML Attributes</a></li>
+      <li class="grow"><a href="TextFormatting.html">Text Formatting</a></li>
+      <li class="grow"><a href="Styles-Colors.html">Styles-Colors</a></li>
+      <li class="grow"><a href="css-styles.html">CSS-Styles</a></li>
+      <li class="grow"><a href="tables.html">Tables</a></li>
+      <li class="grow"><a href="ailists.html">Lists</a></li>
+      <li class="grow"><a href="ajblock.html">Block and Inline Elements</a></li>
+      <li class="grow"><a href="akclasses.html">Classes</a></li>
+      <li class="grow"><a href="alid.html">ID</a></li>
+      <li class="grow"><a href="amframes.html">iFrames</a></li>
+    </ul>
+  </table>
+<!--This is a visual blahl blahllk;jhkjhflakjsdlvkajbdslvjablkba-->
+  <style>
+  html {
+    padding:20px
+  }
+  h1 {
+      text-align: center;
+      font-family: georgia;
+      background-image: linear-gradient(green, blue);
+      color: white
+  }
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(red, black);
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-image: linear-gradient(black, red);
+  }
+  .grow:hover
+  {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.1);
+  transform: scale(1.3);
+  transition:all 2s;
+  }
+
+  #tone {
+    background-image: linear-gradient(yellow, blue);
+  }
+  #tone a:hover {
+    background-image: linear-gradient(blue, yellow);
+  }
+  </style>
+
+<h1>iFrames</h1>
+<table style="width:100%">
+  <ul id="tone">
+<li><a href="#syntax">Iframe Syntax</a></li>
+<li><a href="#height_width">Iframe - Set Height and Width</a></li>
+<li><a href="#border">Iframe - Remove the Border</a></li>
+<li><a href="#style">Iframe - Change the Size, Style, and Border</a></li>
+<li><a href="#Link">Iframe - Target for a Link</a></li>
+</ul>
+
+</table>
+
+<!--This is a visual blahl blahllk;jhkjhflakjsdlvkajbdslvjablkba-->
+</header>
+<body>
+  <br><!--This is a visual blahl blahllk;jhkjhflakjsdlvkajbdslvjablkba-->
+<h2><a id="syntax"></a>Iframe Syntax  <span><a href="#top" class="top" style="font-size:medium">Top</a></h2>
+
+<p><pre>
+
+  An HTML iframe is defined with the <code>< iframe></code> tag:
+
+  < iframe src="URL">< /iframe>
+  The src attribute specifies the URL (web address) of the inline frame page.
+</pre>
+</p>
+
+
+
+<br><!--This is a visual blahl blahllk;jhkjhflakjsdlvkajbdslvjablkba-->
+<h2><a id="height_width"></a>Iframe - Set Height and Width  <span><a href="#top" class="top" style="font-size:medium">Top</a></h2>
+
+<table>
+  <td>
+    <iframe src="demo_iframe.htm" style="height:50px;width:50px;"></iframe>
+
+  </td>
+  <td><pre>
+
+    < iframe src="demo_iframe.htm" style="height:50px;width:50px;">< /iframe>
+
+
+  </pre>
+
+  </td>
+</table>
+
+  <br><!--This is a visual blahl blahllk;jhkjhflakjsdlvkajbdslvjablkba-->
+<h2><a id="border"></a>Iframe - Remove the Border  <span><a href="#top" class="top" style="font-size:medium">Top</a></h2>
+
+<table>
+  <td>
+
+    <iframe src="demo_iframe.htm" style="border:none;"></iframe>
+
+  </td>
+  <td>
+    <pre>
+
+      < iframe src="demo_iframe.htm" style="border:none;">< /iframe>
+    </pre>
+  </td>
+</table>
+
+
+
+  <br><!--This is a visual blahl blahllk;jhkjhflakjsdlvkajbdslvjablkba-->
+  <h2><a id="style"></a>Iframe - Change the Size, Style, and Border  <span><a href="#top" class="top" style="font-size:medium">Top</a></h2>
+
+
+  <table>
+    <td>
+
+      <iframe src="demo_iframe.htm" style="border:2px solid red;"></iframe>
+
+    </td>
+    <td>
+      <pre>
+
+        < iframe src="demo_iframe.htm" style="border:2px solid red;">< /iframe>
+      </pre>
+    </td>
+  </table>
+
+  <br><!--This is a visual blahl blahllk;jhkjhflakjsdlvkajbdslvjablkba-->
+<h2><a id="Link"></a>Iframe - Target for a Link<span><a href="#top" class="top" style="font-size:medium">Top</a></h2>
+</body>
+<p>When the target of a link matches the name of an iframe, the link will open in the iframe.</p>
+<table>
+  <td>
+
+    <iframe height="300px" width="100%" src="demo_iframe.htm" name="iframe_a"></iframe>
+
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+  </td>
+  <td>
+    <pre>
+
+      < iframe height="300px" width="100%" src="demo_iframe.htm" name="iframe_a">< /iframe>
+
+      < p>< a href="https://www.w3schools.com" target="iframe_a">W3Schools.com< /a>< /p>    </pre>
+  </td>
+</table>
+
+
+
+
+</html>
